@@ -20,3 +20,7 @@ for file_name in os.listdir(input_folder):
             print(f'Processed {file_name} -> {output_file}')
         except ffmpeg.Error as e:
             print(f'Error processing {file_name}: {e}')
+
+
+## author='Andrew_Sutherland'
+## author_email='afxsutherland@gmail.com'
